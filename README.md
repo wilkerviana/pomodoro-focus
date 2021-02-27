@@ -4,7 +4,7 @@
 
 ## Descrição
 
-Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to enforce learning about React.js and Next.js.
+Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to reinforce learning about React.js and Next.js.
 
 It's a helpfull app your focus in activities using gamification!
 
