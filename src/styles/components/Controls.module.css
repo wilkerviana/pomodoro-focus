@@ -1,0 +1,65 @@
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.buttonsContainer > button {
+  margin: 0.5rem 0;
+}
+
+.playButton,
+.pauseButton,
+.cancelButton {
+  background-color: #eeeeee;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cancelButton {
+  background-color: #de0085;
+}
+
+.playButton:hover,
+.pauseButton:hover,
+.cancelButton:hover {
+  box-shadow: rgba(222, 0, 133, 0.5) 0 0 10px 6px;
+}
+.playButton:before,
+.pauseButton:before,
+.cancelButton:before {
+  position: absolute;
+  top: calc(50% - 18px / 2);
+  left: calc(50% - 14px / 2);
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 18px;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.playButton:before {
+  content: url(/assets/icons/play_icon.svg);
+}
+.pauseButton:before {
+  content: url(/assets/icons/pause_icon.svg);
+  left: calc(50% - 16px / 2);
+}
+.cancelButton:before {
+  content: url(/assets/icons/cancel_icon.svg);
+  left: calc(50% - 20px / 2);
+}
+
+.playButton:hover:before,
+.pauseButton:hover:before,
+.cancelButton:hover:before {
+  transform: scale(1.2);
+}

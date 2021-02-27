@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pomodoro Focus
 
-## Getting Started
+<!-- ![MoveIt Preview](./public/GitHub/MoveIt-preview.gif) -->
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
+Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to enforce learning about React.js and Next.js.
+
+It's a helpfull app your focus in activities using gamification!
+
+Enjoy it!
+
+<p>
+  <a href="https://github.com/reactjs/pt-BR.reactjs.org#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/reactjs/pt-BR.reactjs.org/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+</p>
+
+## 🦾 Usage
+
+```sh
+mkdir app
+cd app
+git clone https://github.com/wilkerviana/pomodoro-focus.git
+cd pomodoro-focus && code .
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Framework & Tools
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<img src='https://img.shields.io/badge/React-1d3557?style=for-the-badge&logo=react&logoColor=61DAFB'></img>
+<img src='https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white'></img>
+<img src='https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white'></img>
+<img src='https://img.shields.io/badge/Yarn-117cad?style=for-the-badge&logo=yarn&logoColor=white'></img>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Social & Professional
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href='https://www.instagram.com/stw_gabriel/'><img src='https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white'></img> </a>
+<a href='https://www.linkedin.com/in/wilkerviana/'><img src='https://img.shields.io/badge/LinkedIn-2867B2?style=for-the-badge&logo=linkedin&logoColor=white'></img> </a>

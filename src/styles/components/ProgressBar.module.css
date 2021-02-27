@@ -1,0 +1,67 @@
+.progressBarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px;
+  width: 50%;
+}
+
+.progressBarContainer .badge {
+  color: #eeeeee;
+  font-size: 1.2em;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.progressBarContainer .badge:before {
+  content: url(/assets/icons/badge.svg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+}
+
+.progressBarContainer .container {
+  position: relative;
+  height: 1.6rem;
+  display: flex;
+}
+.progressBarContainer .container span:last-child {
+  color: #eeeeee;
+  font-size: 0.6em;
+  font-weight: 700;
+  position: absolute;
+}
+
+.progressBarContainer .bar {
+  background-color: #eeeeee;
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1rem;
+  height: 6px;
+  width: 100%;
+}
+
+.progressBarContainer .bar span:first-child {
+  display: block;
+  background-color: #de0085;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+
+  transition: width 0.5s ease-in-out;
+}
+
+.progressBarContainer .experience {
+  display: flex;
+  justify-content: space-between;
+  color: #de0085;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 320px;
+  /* margin-right: 6rem; */
+  height: auto;
+  width: 100%;
+}
+
+.profilePicture {
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #de0085;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profilePicture img {
+  display: block;
+  width: 100%;
+}
+
+.profileInfo {
+  color: #eeeeee;
+  display: flex;
+  height: 80px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profileInfo h3 {
+  color: #de0085;
+  font-size: 1.2em;
+}

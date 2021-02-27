@@ -1,0 +1,24 @@
+.countdownContainer {
+  max-width: 500px;
+  width: 100%;
+}
+
+.countdownContainer > .display {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.countdownContainer > .display > .number {
+  color: #eeeeee;
+  font-size: 8em;
+  font-weight: 800;
+}
+
+.countdownContainer > .display > .word {
+  color: #280068;
+  font-size: 4em;
+  font-weight: 800;
+}

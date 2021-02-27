@@ -1,0 +1,42 @@
+.overlay {
+  position: fixed;
+  background-color: rgba(37, 37, 37, 0.9);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+  justify-content: space-evenly;
+  padding: 2rem;
+  min-height: 280px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal h4 {
+  text-transform: uppercase;
+}
+
+.modal p {
+  color: #eeeeee;
+}
+
+.modal button {
+  background-color: rgba(37, 37, 37, 0.9);
+  border: none;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  color: #eeeeee;
+  padding: 0.8rem;
+}
