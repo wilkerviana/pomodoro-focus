@@ -1,7 +1,5 @@
 # Pomodoro Focus
 
-<!-- ![MoveIt Preview](./public/GitHub/MoveIt-preview.gif) -->
-
 ## Descrição
 
 Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to reinforce learning about React.js and Next.js.
@@ -38,5 +36,5 @@ yarn dev
 
 ## Social & Professional
 
-<a href='https://www.instagram.com/stw_gabriel/'><img src='https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white'></img> </a>
+<a href='https://www.instagram.com/uiuzera/'><img src='https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white'></img> </a>
 <a href='https://www.linkedin.com/in/wilkerviana/'><img src='https://img.shields.io/badge/LinkedIn-2867B2?style=for-the-badge&logo=linkedin&logoColor=white'></img> </a>
