@@ -73,7 +73,7 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
       }}
     >
       {children}
-      {showModal.includes(true) && <Modal />}
+      <Modal showModal={showModal} closeModal={closeModal} />
     </ChallengesContext.Provider>
   );
 }

@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: space-between;
   max-width: 320px;
-  /* margin-right: 6rem; */
   height: auto;
   width: 100%;
 }
@@ -34,5 +33,5 @@
 
 .profileInfo h3 {
   color: #de0085;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }

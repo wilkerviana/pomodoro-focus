@@ -44,7 +44,7 @@
 .quotes {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 6rem;
 
   grid-area: quotes;

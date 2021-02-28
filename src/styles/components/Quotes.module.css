@@ -2,4 +2,18 @@
   color: #de0085;
   font-family: 'Oxygen', sans-serif;
   font-size: 1.8em;
+  width: 100%;
+}
+
+.quote > span {
+  display: block;
+  font-size: 0.6em;
+  font-style: italic;
+  font-weight: 200;
+  margin-top: 0.5rem;
+
+  background: -webkit-linear-gradient(5deg, #4400b2 5%, #de0085 20%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
