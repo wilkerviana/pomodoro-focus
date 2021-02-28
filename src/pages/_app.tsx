@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         />
 
         <meta property="og:type" content="website" />
-        {/* <meta property="og:url" content="https://metatags.io/" /> */}
+        <meta property="og:url" content="https://pomodoro-focus.vercel.app/" />
         <meta property="og:title" content="Pomodoro Focus" />
         <meta
           property="og:description"
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        {/* <meta property="twitter:url" content="https://metatags.io/" /> */}
+        <meta property="twitter:url" content="https://pomodoro-focus.vercel.app/" />
         <meta property="twitter:title" content="Pomodoro Focus" />
         <meta
           property="twitter:description"
