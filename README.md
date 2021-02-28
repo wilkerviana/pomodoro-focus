@@ -1,12 +1,13 @@
+
 # Pomodoro Focus
+![demo](https://user-images.githubusercontent.com/7241422/109434673-33ec3a80-79f5-11eb-80a3-4deec339c980.gif)
+## Description
 
-## Descrição
-
-Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to reinforce learning about React.js and Next.js.
-
+Pomodoro Focus is an application developed during Rocketseat - Next Level Week, to reinforce learning about React.js and Next.js.<br>
+UI design created by me.<br>
 It's a helpfull app your focus in activities using gamification!
 
-Enjoy it!
+Enjoy it! ✨
 
 <p>
   <a href="https://github.com/reactjs/pt-BR.reactjs.org#readme">
