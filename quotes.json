@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "quote": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs"
+  },
+  {
+    "id": 2,
+    "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein"
+  },
+  {
+    "id": 3,
+    "quote": "Not all those who wander are lost.",
+    "author": "J.R.R Tolkien"
+  },
+  {
+    "id": 4,
+    "quote": "That’s one small step for a man, a giant leap for mankind.",
+    "author": "Neil Armstrong"
+  },
+  {
+    "id": 5,
+    "quote": "Whatever you are, be a good one.",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "id": 6,
+    "quote": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Ghandi"
+  },
+  {
+    "id": 7,
+    "quote": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas Edison"
+  },
+  {
+    "id": 8,
+    "quote": "Andar com fé eu vou; Que a fé não costuma falhar...",
+    "author": "Gilberto Gil"
+  },
+  {
+    "id": 9,
+    "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "author": "Benjamin Franklin"
+  },
+  {
+    "id": 10,
+    "quote": "The way to get started is to quit talking and begin doing.",
+    "author": "Walt Disney"
+  }
+]
