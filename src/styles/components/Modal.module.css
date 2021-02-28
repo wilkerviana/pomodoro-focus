@@ -1,6 +1,6 @@
 .overlay {
   position: fixed;
-  background-color: rgba(37, 37, 37, 0.9);
+  background-color: rgba(32, 21, 49, 0.9);
   top: 0;
   left: 0;
   right: 0;
@@ -15,28 +15,63 @@
 .modal {
   display: flex;
   align-items: center;
+  background-color: #ffffff;
+  border-radius: 1.4rem;
   flex-direction: column;
-  background-color: purple;
-  justify-content: space-evenly;
-  padding: 2rem;
-  min-height: 280px;
-  max-width: 400px;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  position: relative;
+  min-height: 300px;
+  max-width: 300px;
   width: 100%;
 }
 
+.modal:before {
+  position: absolute;
+  top: -4rem;
+  left: (50% - 108px/2);
+
+  height: 108px;
+  width: 108px;
+}
+
+.modal.finish:before {
+  content: url(/assets/icons/achievement_icon.svg);
+}
+.modal.level:before {
+  content: url(/assets/icons/success_icon.svg);
+}
+
 .modal h4 {
+  color: #4400b2;
+  font-size: 1.4em;
+  margin-top: 2.2rem;
   text-transform: uppercase;
 }
 
 .modal p {
-  color: #eeeeee;
+  color: #a8a8a8;
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 180px;
 }
 
 .modal button {
-  background-color: rgba(37, 37, 37, 0.9);
+  background-color: rgba(222, 0, 133, 1);
   border: none;
-  border-radius: 0.8rem;
+  border-radius: 2rem;
   cursor: pointer;
-  color: #eeeeee;
-  padding: 0.8rem;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 1rem 2rem;
+
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.modal button:hover {
+  background-color: rgba(242, 0, 133, 1);
+  box-shadow: 0 0 8px 2px rgba(222, 0, 133, 0.5);
 }

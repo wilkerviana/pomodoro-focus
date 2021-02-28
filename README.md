@@ -23,8 +23,8 @@ Enjoy it!
 mkdir app
 cd app
 git clone https://github.com/wilkerviana/pomodoro-focus.git
-cd pomodoro-focus && code .
-yarn dev
+cd pomodoro-focus
+yarn install && yarn dev
 ```
 
 ### Framework & Tools

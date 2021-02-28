@@ -7,17 +7,29 @@ export function Modal() {
   return (
     <>
       <div className={styles.overlay}>
-        <div className={styles.modal}>
+        <div
+          className={`${styles.modal} ${
+            showModal.every(bool => bool === true) ? styles.level : styles.finish
+          }`}
+        >
           {showModal.every(bool => bool === true) ? (
-            <div className={styles.levelUpModal}>
-              <h4>Level Up {level}</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+            <>
+              <h4>Level Up</h4>
+              <p>
+                Kudhos!
+                <br />
+                You have been focused and nothing will stop your growthing!
+              </p>
+            </>
           ) : (
-            <div className={styles.finishModal}>
+            <>
               <h4>Congratulations</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+              <p>
+                You accomplished your goal as planned.
+                <br />
+                Keep focusing on your activities.
+              </p>
+            </>
           )}
           <button type="button" onClick={closeModal}>
             Continue
