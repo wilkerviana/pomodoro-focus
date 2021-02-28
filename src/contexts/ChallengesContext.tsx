@@ -54,9 +54,19 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
   }
 
   useEffect(() => {
+    Notification.requestPermission();
+  }, [])
+
+  useEffect(() => {
     Cookies.set('level', String(level));
     Cookies.set('currentExperience', String(currentExperience));
     Cookies.set('challengesCompleted', String(challengesCompleted));
+    if (Notification.permission === 'granted') {
+      new Audio('/notification.mp3').play();
+      new Notification('Focus Mission Finished 🏁',  {
+        body: `Yeah 🤘! You earned ${experienceUp}xp`
+      })
+    }
   }, [level, currentExperience, challengesCompleted]);
 
   return (
